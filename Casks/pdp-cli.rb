@@ -3,7 +3,7 @@ cask "pdp-cli" do
   name "pdp-cli"
   desc "CLI for Discovery 2.x"
   homepage "https://github.com/diego-granados/pdp-cli-releases-test"
-  version "0.2.0-beta14"
+  version "0.2.0-beta15"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "pdp-cli" do
   on_macos do
     on_intel do
       url "https://github.com/diegogranados-pi/pdp-cli-releases-test/releases/download/v#{version}/pdp-cli-releases-test_#{version}_darwin_amd64.tar.gz"
-      sha256 "2ed9f0f754b23de94729297183c0bf950b601cab4a2840ce906dc8995fbb1857"
+      sha256 "6f608b88001f62644cb2d2c92014104c2fa87617b715cc4056991c8f02b100ee"
     end
     on_arm do
       url "https://github.com/diegogranados-pi/pdp-cli-releases-test/releases/download/v#{version}/pdp-cli-releases-test_#{version}_darwin_arm64.tar.gz"
-      sha256 "b22270958a8680bea81f15a6bfb3dc35a9d9162a332138c0ea2c02b7b4c57209"
+      sha256 "70041159870dfbc48ff6297802c035e8243e6dd682691d74090068b5ed8f189c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/diegogranados-pi/pdp-cli-releases-test/releases/download/v#{version}/pdp-cli-releases-test_#{version}_linux_amd64.tar.gz"
-      sha256 "64724f04cdcecbaeaaf20a64171f0f2193c08033212092e64ef1cc4641c34e00"
+      sha256 "d13b4ffbd6632916496384feb11c95315edfd7ed586111540c06c156ab17a30d"
     end
     on_arm do
       url "https://github.com/diegogranados-pi/pdp-cli-releases-test/releases/download/v#{version}/pdp-cli-releases-test_#{version}_linux_arm64.tar.gz"
-      sha256 "d9cbf2a371154f2559c0dbde9ed448e3f1b6fd8bfcbf881d8978af5efef4f0d2"
+      sha256 "d03ba7523330c0b730c18779ba2a32d97d608bf7afce80eafe79c39338177497"
     end
   end
 
