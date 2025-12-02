@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0-beta11",
+    "architecture": {
+        "32bit": {
+            "url": "https://github.com/diegogranados-pi/pdp-cli-releases-test/releases/download/v0.2.0-beta11/pdp-cli-releases-test_0.2.0-beta11_windows_386.zip",
+            "bin": [
+                "discovery.exe"
+            ],
+            "hash": "9ee30883039cb57990c0eb6f769fc0c5fc26861ef6421b9984fef9af55a12897"
+        },
+        "64bit": {
+            "url": "https://github.com/diegogranados-pi/pdp-cli-releases-test/releases/download/v0.2.0-beta11/pdp-cli-releases-test_0.2.0-beta11_windows_amd64.zip",
+            "bin": [
+                "discovery.exe"
+            ],
+            "hash": "d8b69dc5102ef2fba2a7a4f886b0c51ae05c99c693ae10b8008ad9234367848a"
+        },
+        "arm64": {
+            "url": "https://github.com/diegogranados-pi/pdp-cli-releases-test/releases/download/v0.2.0-beta11/pdp-cli-releases-test_0.2.0-beta11_windows_arm64.zip",
+            "bin": [
+                "discovery.exe"
+            ],
+            "hash": "d4c840fc25e0811687fd1e83457610a21f679d8a8e37187ba3df18c257ea2338"
+        }
+    },
+    "homepage": "https://github.com/diego-granados/pdp-cli-releases-test",
+    "license": "MIT",
+    "description": "CLI for Discovery 2.x"
+}
